@@ -200,26 +200,37 @@ button.new-game {
         overflow-x: hidden;
     }
     main {
-        gap: 20px;
-        padding: 8px 4px 24px 4px;
+        gap : 5px;
+        padding : 0px 4px 24px 4px;
         width: 100%;
         max-width: 100vw;
         min-height: 100vh;
         box-sizing: border-box;
     }
-
+    header > p {
+        margin: 0px;
+        padding-bottom: 20px;
+    }
     section.game-status.won, section.game-status.lost {
         margin-bottom: 20px;
     }
+    section.game-status.farewell {
+        min-height: unset;
+    }
+    .farewell-message {
+        font-size: 0.9rem;
+        margin: 0px;
+        padding-bottom: 2px;
+    }
     .guesses-left{
-        margin: 0px 0px 15px;
+        margin: 18px 0px 15px;
     }
     section.language-chips {
         font-size: 1rem;
-        margin-bottom: 18px;
+        margin-bottom: 25px;
     }
     section.word {
-        margin-bottom: 18px;
+        margin-bottom: 25px;
     }
     section.word > span {
         height: 36px;
@@ -229,6 +240,7 @@ button.new-game {
     section.keyboard {
        margin-bottom: 18px;
         max-width: 100%;
+        gap: 4px;
     }
     section.keyboard > button {
         height: 50px;
@@ -236,4 +248,18 @@ button.new-game {
         min-width: 0;
         font-size: 1.1rem;
     }
+}
+@media (max-width: 381px) {
+    header > h1 {
+        font-size: 1.5rem;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    header > p {
+        font-size: 1rem;
+        max-width: 300px;
+}
+section.keyboard{
+    gap: 1.8px;
+}
 }
