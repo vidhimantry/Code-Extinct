@@ -1,6 +1,6 @@
-# Code-Extinct-Game
+# Code Extinct Game
 
-A fun and lightweight browser game where users guess hidden words in a Hangman-style format built using React. The game focuses on a clean UI, smooth transitions and a rewarding streak system that keeps players engaged.
+A fun and lightweight browser game where users guess hidden words in a Hangman-style format built using React. The game focuses on a clean UI, smooth transitions and a rewarding streak system that provides an engaging user experience.
 
 ## 🚀 Features
 - **Random word gameplay** — a new word is selected each round to keep things fresh.
